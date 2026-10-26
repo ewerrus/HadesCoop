@@ -1,0 +1,8 @@
+:: HadesCoop - local co-op prototype
+
+Load Priority 100
+Import "HadesCoop.lua"
+Import "HadesCoopLang.lua"
+
+To "Game/Units/PlayerUnits.sjson"
+SJSON "PlayerUnits.sjson"

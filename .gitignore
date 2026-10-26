@@ -1,0 +1,14 @@
+# Скачанные инструменты (ModUtil, modimporter) и собранные архивы
+dl/
+dist/
+
+# Сборка и логи
+native/build/
+native/tools/*.exe
+*Probe.txt
+coop_log.txt
+HadesCoop/online/HadesCoopGuest.exe
+
+# Файлы Microsoft и дизассемблер движка игры (чужой код)
+native/tools/dbghelp.dll
+native/tools/engine.asm

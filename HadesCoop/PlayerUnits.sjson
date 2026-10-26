@@ -1,0 +1,20 @@
+{
+  Units = [
+    "_append"
+    {
+      Name = "_PlayerUnit2"
+      InheritFrom = "_PlayerUnit"
+      DisplayInEditor = false
+      PlayerUnitData =
+      {
+        PlayerIndex = 2
+        MinMoveDistance = 8.0
+        ReticleMagnetismDistance = 100.0
+        ReticleMagnetismSpeed = 1000.0
+        ReticleMoveDelay = 0.04
+        ReticleMoveSpeed = 2500.0
+        ReticleReMagnetizeTimeout = 1.0
+      }
+    }
+  ]
+}
